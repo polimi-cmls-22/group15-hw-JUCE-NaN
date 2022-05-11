@@ -1,4 +1,11 @@
-DistorColor 
+![](./gitImages/DistorColorLabel.png)
+
+# Group members:
+- Juan Camilo Albarracín Sánchez
+- Michele Murciano
+- Emanuele Pavese
+- Camilo Trujillo Gutiérrez
+- Francesco Zese
 
 DistorColor is our take on distortion. 
 It can be used to boost the incoming signal via the PRE knob, give it some colour by the TONE shaping and the DRIVE control.
