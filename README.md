@@ -1,4 +1,4 @@
-![](/gitImages/DistorColorLabel.png)
+![](./gitImages/DistorColorLabel.png)
 
 
 DistorColor is our take on distortion. 
