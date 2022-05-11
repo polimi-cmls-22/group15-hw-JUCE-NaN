@@ -40,6 +40,7 @@ should be minimized, adjust the bit crusher MIX knob to balance between the dist
 AUDIO VISUALIZER 
 
 An useful tool is the audio visualizer, it can be seen the difference between a non distorted signal and a distorted one. 
+
 ![](./gitImages/waveshapernodist.png)  ![](./gitImages/waveshaperdist.png)
 
 
