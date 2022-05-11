@@ -1,11 +1,5 @@
-![](./gitImages/DistorColorLabel.png)
+![](/gitImages/DistorColorLabel.png)
 
-# Group members:
-- Juan Camilo Albarracín Sánchez
-- Michele Murciano
-- Emanuele Pavese
-- Camilo Trujillo Gutiérrez
-- Francesco Zese
 
 DistorColor is our take on distortion. 
 It can be used to boost the incoming signal via the PRE knob, give it some colour by the TONE shaping and the DRIVE control.
@@ -81,3 +75,11 @@ NOTES on the PRE Knob
 The PRE knob can be used to boost the signal in case one wants only a boost in volume, and in general to hear the dry (un-effected signal) with the effected one.
 
  Be careful with this control, it can clip almost immediately, especially with the drive section engaged (use the VOL buttons to balance the overall output).
+ 
+ 
+ # Group members:
+- Juan Camilo Albarracín Sánchez
+- Michele Murciano
+- Emanuele Pavese
+- Camilo Trujillo Gutiérrez
+- Francesco Zese
