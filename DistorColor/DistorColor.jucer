@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="yQJ5UR" name="DistorColor" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              cppLanguageStandard="17">
+  <MAINGROUP id="aGmBmf" name="DistorColor">
+    <GROUP id="{2C5D87B9-81BD-3568-8F7A-BA5E57F49AC1}" name="Source">
+      <GROUP id="{1179CD46-6DCA-1867-3134-259E638A1E3E}" name="Components">
+        <FILE id="uCVogK" name="FilmStripKnob.h" compile="0" resource="0" file="Source/Components/FilmStripKnob.h"/>
+      </GROUP>
+      <FILE id="UeoHrx" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="EHqmlN" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="i7Noik" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="mP58tp" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{854254B1-E0D6-A3A4-5768-7B2516528963}" name="Resources">
+      <FILE id="zrxjvb" name="BiLabel.png" compile="0" resource="1" file="Resources/BiLabel.png"/>
+      <FILE id="kaqsf8" name="Button.png" compile="0" resource="1" file="Resources/Button.png"/>
+      <FILE id="M2oCrz" name="ButtonPressed.png" compile="0" resource="1"
+            file="Resources/ButtonPressed.png"/>
+      <FILE id="lllhw6" name="DistLabel.png" compile="0" resource="1" file="Resources/DistLabel.png"/>
+      <FILE id="SzPWk5" name="DistorColorLabel.png" compile="0" resource="1"
+            file="Resources/DistorColorLabel.png"/>
+      <FILE id="fWaAfZ" name="DownButton.png" compile="0" resource="1" file="Resources/DownButton.png"/>
+      <FILE id="wxcJv6" name="DownButtonPressed.png" compile="0" resource="1"
+            file="Resources/DownButtonPressed.png"/>
+      <FILE id="hxFAxZ" name="DryLabel.png" compile="0" resource="1" file="Resources/DryLabel.png"/>
+      <FILE id="BYVKFz" name="GameBoyBody.png" compile="0" resource="1" file="Resources/GameBoyBody.png"/>
+      <FILE id="FNZpvV" name="StartButton.png" compile="0" resource="1" file="Resources/StartButton.png"/>
+      <FILE id="zjLD76" name="StartButtonPressed.png" compile="0" resource="1"
+            file="Resources/StartButtonPressed.png"/>
+      <FILE id="wwsobE" name="GainLabel.png" compile="0" resource="1" file="Resources/GainLabel.png"/>
+      <FILE id="QHE1AN" name="LeftButton.png" compile="0" resource="1" file="Resources/LeftButton.png"/>
+      <FILE id="wpNc8k" name="KnobStrip.png" compile="0" resource="1" file="Resources/KnobStrip.png"/>
+      <FILE id="ZG75T8" name="LeftButtonPressed.png" compile="0" resource="1"
+            file="Resources/LeftButtonPressed.png"/>
+      <FILE id="GEU6xD" name="MixLabel.png" compile="0" resource="1" file="Resources/MixLabel.png"/>
+      <FILE id="V28uAL" name="RightButton.png" compile="0" resource="1" file="Resources/RightButton.png"/>
+      <FILE id="QZnmHb" name="RightButtonPressed.png" compile="0" resource="1"
+            file="Resources/RightButtonPressed.png"/>
+      <FILE id="Vh0SLt" name="SrLabel.png" compile="0" resource="1" file="Resources/SrLabel.png"/>
+      <FILE id="po4BNA" name="UpButton.png" compile="0" resource="1" file="Resources/UpButton.png"/>
+      <FILE id="ZmXTG3" name="UpButtonPressed.png" compile="0" resource="1"
+            file="Resources/UpButtonPressed.png"/>
+      <FILE id="gw5XH3" name="VolMinusLabel.png" compile="0" resource="1"
+            file="Resources/VolMinusLabel.png"/>
+      <FILE id="C3nBjr" name="VolPlusLabel.png" compile="0" resource="1"
+            file="Resources/VolPlusLabel.png"/>
+      <FILE id="SSlFYM" name="WetLabel.png" compile="0" resource="1" file="Resources/WetLabel.png"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DistorColor"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DistorColor"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DistorColor"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DistorColor"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DistorColor"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DistorColor"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DistorColor"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DistorColor"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
